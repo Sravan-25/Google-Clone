@@ -1,0 +1,230 @@
+body{
+    margin: 20px;
+    padding: 0px;
+    background-image: url(background.jpg);
+    background-repeat: round;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+/*Head*/
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.link{
+    text-decoration: none;
+    padding: 0px 8px;
+    color: white;
+    cursor: pointer;
+}
+.link:hover{
+    text-decoration: underline;
+}
+
+#icon{
+    color: white;
+    padding: 0px 8px;
+    cursor: pointer;
+}
+#account{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    padding: 0px 8px;
+    cursor: pointer;
+}
+
+
+/*center*/
+
+.content{
+    position: relative;
+}
+h1{
+    position: absolute;
+    top: 19%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10vh;
+    font-weight: 550;
+    color: white;
+}
+.search_bar{
+    position: relative;
+    height: 800px;
+    width: 100%;
+}
+#search{
+    position: absolute;
+    top: 37%;
+    left: 32%;
+    padding: 1px;
+    font-size: 13px;
+    color: gray;
+    cursor: pointer;
+}
+input{
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 561px;
+    height: 44px;
+    font-size: 18px;
+    border: none;
+    box-shadow: 0px 0px 14px 0px black;
+    border-radius: 20px;
+    outline: none;
+    padding: 0px 40px;
+}
+
+#voice{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 37%;
+    left: 64%;
+    background: none;
+    cursor: pointer;
+}
+#lens{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 294px;
+    left: 66%;
+    background: none;
+    cursor: pointer;
+}
+
+/* icons */
+
+.tabs{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.fb{
+    position: absolute;
+    display: grid;
+    bottom: 47vh;
+    background-color: rgb(72, 69, 69);
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    left: 61vh;
+    cursor: pointer;
+}
+
+.insta{
+    position: absolute;
+    display: grid;
+    bottom: 47vh;
+    background-color: rgb(72, 69, 69);
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    left: 82vh;
+    cursor: pointer;
+}
+
+.linkedln{
+    position: absolute;
+    display: grid;
+    bottom:47vh;
+    background-color: rgb(72, 69, 69);
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    left: 101vh;
+    cursor: pointer;
+}
+#img{
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+#link{
+    position: absolute;
+    top: 55px;
+    right: -8px;
+    text-decoration: none;
+    color: white;
+}
+
+.tab2{
+    position: relative;
+    height: 100%;
+    width: 100%; 
+}
+
+.Indeed{
+    position: absolute;
+    display: grid;
+    bottom: 35vh;
+    background-color: rgb(72, 69, 69);
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    left: 61vh;
+    cursor: pointer;
+}
+
+.Pinterest{
+    position: absolute;
+    display: grid;
+    bottom: 35vh;
+    background-color: rgb(72, 69, 69);
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    left: 82vh;
+    cursor: pointer;
+}
+
+.Google_photos{
+    position: absolute;
+    display: grid;
+    bottom:35vh;
+    background-color: rgb(72, 69, 69);
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    left: 101vh;
+    cursor: pointer;
+}
+#img1{
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+#link1{
+    position: absolute;
+    top: 55px;
+    right: -8px;
+    text-decoration: none;
+    color: white;
+}
+
+.last{
+    height: 1px;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+#pen{
+    background-color: rgba(0, 0, 0, 0.60);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; 
+    cursor: pointer;
+}
